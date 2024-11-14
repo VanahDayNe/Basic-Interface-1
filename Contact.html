@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="PJ1.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+    <!-- Logo bên trái -->
+        <div class="logo">
+            <a href="index.html"> <img src="img/banana cat.jpg" alt=""> </a>
+        </div>
+    <!-- Search bên phải -->
+        <div class="search">
+            <form >
+                <input type="search" placeholder="search site" id="search"> 
+                <input type="submit" value="search">
+            </form>
+        </div>
+    <!-- [clearfix]: Xuống hàng, không bị trôi (CSS) -->
+        <div class="clearfix"></div> 
+    <!-- Thanh điều hướng -->
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="About.html">About</a></li>
+                <li>
+                    <a href="">Services</a>
+                    <ul class="drop">
+                        <li><a href="Service/Service 1.html">Service 1</a></li>
+                        <li><a href="Service/Service 2.html">Service 2</a></li>
+                        <li><a href="Service/Service 3.html">Service 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <section class="banner">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4728596204936!2d106.63449940000004!3d10.
+        775049599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea168a65c0b%3A0x2a4a7dc43e177de1!2zMTIgVHLhu4tuaCDEkMOsbmggVGjhuqNvLCBIb8OgIFRoYW5oLCBUw6JuIFBow7osIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!
+        4v1715396752038!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div class="clearfix"></div>
+    <section class="content-holder">
+        <article class="content">
+            <main>          
+                <h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                <p>
+                    Voluptas ipsam doloribus amet veniam ullam laboriosam, nesciunt molestiae soluta quod! Nihil,
+                    rerum vitae? Aliquid commodi rem fugit consequuntur dolor tempora est? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Neque illo recusandae totam enim earum quia perferendis culpa dolores fugiat expedita rem voluptatem cupiditate eos odit voluptate, 
+                     ea laborum laudantium aliquid?
+                </p>  
+            </main>
+        </article>
+
+        
+        <aside class="sidebar">
+            <div>
+                <h3>Widget</h3>
+                <ul>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2019</a></li>
+                    <li><a href="#">2020</a></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+    </section>
+    <div class="contact-form">
+        <form> 
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td>
+                        <!-- [required]: cảnh báo nhập đúng loại và không để trống -->
+                        <input type="text" name="c_name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                        <input type="email" name="c_email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone: </td>
+                    <td>
+                        <input type="tel" name="c_tel" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Subject: </td>
+                    <td>
+                        <input type="text" name="c_sub" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Message: </td>
+                    <td>
+                        <textarea name="c_mess" cols="30" rows="5" id=""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Send Message" name="c_send">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-box">
+            <h3>Footer menu</h3>
+            <ul>
+                <li><a href="">index</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <h3>Footer menu</h3>
+            <ul>
+                <li><a href="">index</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <h3>Footer menu</h3>
+            <ul>
+                <li><a href="">index</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <address>
+            <p>123, ABC,ncskvns</p>
+            <p><a href="">Contact@someone.com</a></p>
+            <p>Tel: <a href="tel:123456789">123456789</a></p>
+        </address>
+        <div class="clearfix"></div>
+    </footer>
+
+    <div class="copy">
+        <p><small>Copyright &copy; Vanah, 2024</small></p>
+    </div>
+</div>
+<!-- Hiệu ứng chuyển hình, kết hợp với class="cycle-slideshow" -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.io/jquery.cycle2.js"></script>
+</body>
+</html>
